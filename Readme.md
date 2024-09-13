@@ -1,7 +1,8 @@
+# 👷‍♂️⚒ work in progress 👨‍🏭🛠
+## Order Management Microservice 🥙
 
-# Order Management Microservice
-
-## Overview
+### Overview
+A order management microservice project for a food chain distributing shawarmas to thousands of people. Highly scalable microservices with low latency communications and high availability with concurrent processing.
 
 Gateway => Orders => Orders Service => Inventory (stock management) => Inventory Service => Payments => Payments Service
 
@@ -24,7 +25,7 @@ Payment Service
 - Produces an order Paid/Cancelled event to (orders / stock and kitchen)
 
 
-## Tools
+### Tools
 
 - Go 1.22 or higher.
 - Golang cosmtrek / air for hot-reloading.
